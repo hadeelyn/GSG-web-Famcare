@@ -8,28 +8,25 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class AcademyPageTest {
-    ChromeDriver chromeDriver;
-    WebDriverWait wait;
+public class AcademyPageTest{
+    BaseTest baseTest= new BaseTest();
+    ChromeDriver driver;
     @BeforeClass
-    public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        chromeDriver = new ChromeDriver();
-        wait = new WebDriverWait(chromeDriver, 60);
-        chromeDriver.get("https://academy.famcare.app");
+    public void setUp(){
+        driver=  baseTest.setUp("https://academy.famcare.app");
     }
 
     @Test
     public void verifyThatClickingIkhlasButtonOpensTheArchive() {
-        WebElement ikhlasElement = chromeDriver.findElement(By.xpath("//div[@data-id='4b8df64']"));
+        WebElement ikhlasElement = driver.findElement(By.xpath("//div[@data-id='4b8df64']"));
         //clickable?
-        wait.until(ExpectedConditions.elementToBeClickable(ikhlasElement));
+//        wait.until(ExpectedConditions.elementToBeClickable(ikhlasElement));
         ikhlasElement.click();
     }
 
-
     @AfterClass
-    public void tearDown() {
-        chromeDriver.quit();
+    public void tearDown(){
+        baseTest.tearDown();
     }
+
 }

@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fad09583-a1c1-411a-b2ca-e2181d224029" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AcademyPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="fad09583-a1c1-411a-b2ca-e2181d224029" name="Changes" comment="tesng.xml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JoinAsSpecialistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcademyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AcademyPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,22 +54,11 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG./Users/ibrahimalsharif/IdeaProjects/GSG-webSeleniumExample/testng.xml">
+  <component name="RunManager" selected="TestNG.JoinAsSpecialistTest">
     <configuration name="AcademyPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GSG-webSeleniumExample" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AcademyPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GSG-webSeleniumExample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,6 +94,17 @@
       <option name="MAIN_CLASS_NAME" value="HomePageTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinAsSpecialistTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GSG-webSeleniumExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JoinAsSpecialistTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -146,10 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JoinAsSpecialistTest" />
         <item itemvalue="TestNG./Users/ibrahimalsharif/IdeaProjects/GSG-webSeleniumExample/testng.xml" />
         <item itemvalue="TestNG.AcademyPageTest" />
         <item itemvalue="Python tests.Python tests in test" />
-        <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="TestNG.HomePageTest" />
       </list>
     </recent_temporary>
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675951959662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tesng.xml">
+      <created>1676106762125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676106762125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +195,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="tesng.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="tesng.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
