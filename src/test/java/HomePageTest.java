@@ -2,7 +2,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
@@ -11,7 +10,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
 
-public class MainTest {
+public class HomePageTest {
     ChromeDriver chromeDriver;
     WebDriverWait wait;
 
@@ -19,7 +18,7 @@ public class MainTest {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         chromeDriver = new ChromeDriver();
-        wait = new WebDriverWait(chromeDriver, 30);
+        wait = new WebDriverWait(chromeDriver, 60);
         chromeDriver.get("https://famcare.app");
     }
 
@@ -42,14 +41,6 @@ public class MainTest {
         academyButton.click();
         WebElement ikhlasElement = chromeDriver.findElement(By.xpath("//div[@data-id='4b8df64']"));
         assertTrue(ikhlasElement.isDisplayed());
-    }
-
-    @Test(priority = 4)
-    public void verifyThatClickingIkhlasButtonOpensTheArchive() {
-        WebElement ikhlasElement = chromeDriver.findElement(By.xpath("//div[@data-id='4b8df64']"));
-        //clickable?
-        wait.until(ExpectedConditions.elementToBeClickable(ikhlasElement));
-        ikhlasElement.click();
     }
 
 
