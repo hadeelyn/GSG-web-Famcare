@@ -28,4 +28,8 @@ public class HomePageTest{
         assertTrue(ikhlasElement.isDisplayed());
     }
 
+    @Test
+    public void yy(){
+
+    }
 }

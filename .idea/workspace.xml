@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fad09583-a1c1-411a-b2ca-e2181d224029" name="Changes" comment="send form test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JoinFormPOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TearDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AcademyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AcademyPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JoinAsSpecialistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JoinAsSpecialistTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fad09583-a1c1-411a-b2ca-e2181d224029" name="Changes" comment="Unify the driver" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676206683770</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Unify the driver">
+      <created>1676212434965</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676212434965</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +211,8 @@
     <MESSAGE value="tesng.xml" />
     <MESSAGE value="add Test data" />
     <MESSAGE value="send form test" />
-    <option name="LAST_COMMIT_MESSAGE" value="send form test" />
+    <MESSAGE value="Unify the driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unify the driver" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
