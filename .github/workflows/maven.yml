@@ -9,8 +9,8 @@
 name: GSG-Famcare
 
 on:
-  push:
-    branches: [ "master" ]
+#   push:
+#     branches: [ "master" ]
   schedule:
     - cron: '00 5 * * *'
 jobs:
