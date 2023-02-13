@@ -7,8 +7,9 @@
     <groupId>org.example</groupId>
     <artifactId>GSG-webSeleniumExample</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
+        <java.version>18</java.version>
+        <maven.compiler.release>18</maven.compiler.release>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
     </properties>

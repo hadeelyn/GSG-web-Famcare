@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fad09583-a1c1-411a-b2ca-e2181d224029" name="Changes" comment="add run xml file dependency" />
+    <list default="true" id="fad09583-a1c1-411a-b2ca-e2181d224029" name="Changes" comment="set chrome driver to headless" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676219851967</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="set chrome driver to headless">
+      <created>1676220183607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676220183607</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +227,8 @@
     <MESSAGE value="send form test" />
     <MESSAGE value="Unify the driver" />
     <MESSAGE value="add run xml file dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add run xml file dependency" />
+    <MESSAGE value="set chrome driver to headless" />
+    <option name="LAST_COMMIT_MESSAGE" value="set chrome driver to headless" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
